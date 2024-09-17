@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Cat Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <p id="title">Silly Cat Game</p>
+    </div>
+    <div class="content">
+        <div class="download">
+            <p id="subtitle">Download the game here</p>
+            <a href="./Silly Cat Game Final.rar" id="downloadButton">Download File</a>
+        </div>
+        <div class="description">
+            <p id="subtitle">Description</p>
+            <p id="text">This game has been made by the author for his girlfriend and future wife. It is a basic
+                runner game with the main character being a cat. There are 5 levels, and the maximum score is 17 (his
+                girlfriend age at the time of the development). The game has been developed in Unity. Enjoy!
+            <span style="color:red;">Disclaimer: This game is designed for Windows PCs x64.</span></p>
+        </div>
+        <div class="manual">
+            <p id="subtitle">How To Use</p>
+            <p id="text">The cat can be moved to the left using the "D" button and to the right using the "A"
+                button. The cat can jump when the "W" button is touched. You can also rotate the cat using the left and
+                right arrows. <span style="color:red;">Disclaimer: When starting a level, first make the cat jump, or use the rotate buttons.</span>
+            </p>
+        </div>
+        <div class="help">
+            <p id="subtitle">How to download</p>
+            <p id="text">Download the RAR file from the above, extract it, then run the MyFirstProject(1).exe file.
+                <span style="color:red;">Disclaimer: Windows may consider the file dangerous. When running the .exe file
+                    ,if a warning window appears, click "Keep File anyway", and then click "Run anyway".
+                </span>
+            </p>
+        </div>
+        <div class="bug">
+            <p id="subtitle">Bugs</p>
+            <p id="text"> It is one of my first Unity Games. I dont deny the possibility that there are bugs in the game.
+                I have found some myself, one being that the jump button doesnt always work. I am working on it. In the mean time, 
+                enjoy the game as it is and exploit it how you like. It is supposed to be silly.
+            </p>
+        </div>
+        <div class="contact">
+            <p id="subtitle">Contact</p>
+            <div id="imageContainer">
+                <a href="https://github.com/Matei-thecoder">
+                    <img src="./github.png">
+                </a>
+                <a href="https://www.instagram.com/veselmatei/">
+                    <img src="./instagram.png">
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="text">Developed by &#169Vesel Matei</p>
+    </div>
+</body>
+<style>
+    *{
+        padding:0;
+        margin:auto;
+        box-sizing: border-box;
+    }
+    body{
+        width:100vw;
+        height:100vh;
+        background-color: #042940;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        
+        color:white;
+
+    }
+    #title
+    {
+        font-weight: 700;
+        font-size:30px;
+    }
+    .header{
+        width:100vw;
+        height:20%;
+        background-color:#005C53;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 5px black;
+    }
+    .content{
+        width:100vw;
+        height:auto;
+        box-shadow: 1px 1px 5px black;
+        padding-bottom:30px;
+    }
+    .footer{
+        width:100vw;
+        
+        background-color: #005C53;
+        box-shadow: 1px 1px 5px black;
+    }
+    .download{
+        width:100vw;
+        height:auto;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        gap:20px;
+        padding-top:40px;
+    }
+    #downloadButton{
+        width:50vw;
+        height:10vh;
+        background-color:#005C53;
+        border-radius:10px;
+        text-align: center;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    #subtitle{
+        font-weight: 700;
+        font-size:20px;
+        text-align:center;
+    }
+    a{
+        
+        color:white;
+    }
+    .description{
+        width:100vw;
+        height:auto;
+        display: flex;
+        align-items:center;
+        justify-content:content;
+        flex-direction:column;
+        padding-top:30px;
+    }
+    #text{
+        padding:30px;
+    }
+    .manual{
+       width:100vw;
+    }
+    #imageContainer{
+        padding:20px;
+        width:80px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: row;
+        gap:10px;
+    }
+    img{
+        width:40px;
+        height:40px;
+        border-radius:10px;
+    }
+</style>
+</html>
